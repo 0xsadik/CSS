@@ -2,4 +2,3 @@
 
 > recap...
 
-![css](./css.png)
