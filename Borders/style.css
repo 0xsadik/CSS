@@ -1,0 +1,60 @@
+
+.space {
+    margin: 3%;
+}
+
+/* boders */
+
+.all {
+    border: 1px solid gray;
+    padding: 1%;
+}
+
+.bottom {
+    border-bottom: 1px solid tomato;
+    padding: 1%;
+}
+
+.rounded {
+    border: 1px solid lightseagreen;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.left {
+    border-left: 5px solid brown;
+    padding: 1%;
+}
+
+
+/*  css border styles */
+
+.dotted {
+    border: 2px dotted;
+    padding: 1%;
+}
+
+.dashed {
+    border: 2px dashed;
+    padding: 1%;
+}
+
+.double {
+    border: 2px double;
+    padding: 1%;
+}
+
+.groove {
+    border: 12px groove;
+    padding: 1%;
+}
+
+/*  mix border */
+
+.mix {
+    border-left: 4px dotted tomato;
+    padding: 1%;
+    border-top: 4px dashed lightgreen;
+    border-bottom: 4px groove lightblue;
+    border-right: 4px dotted tomato;
+}
