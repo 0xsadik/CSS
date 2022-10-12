@@ -1,0 +1,23 @@
+
+.space {
+    margin: 3%;
+}
+
+/* background-color */
+
+.bg--color h1{
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+    color: lightcyan;
+}
+
+/* background-image, background-repeat, background-attachment*/
+
+.boi {
+    width: 500px;
+    height: 400px;
+    background-image: url(./dis_boi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
