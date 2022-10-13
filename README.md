@@ -1,5 +1,5 @@
 # CSS
 
-> recap...
+> recap css stuff...
 
 ![css](./css.png)
