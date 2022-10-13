@@ -1,0 +1,36 @@
+
+.padding-top h2{
+    background-color: tomato;
+    padding-top: 5%;
+}
+.padding-right h2{
+    background-color: tomato;
+    padding-right: 5%;
+    text-align: right;
+}
+
+.padding-bottom h2 {
+    background-color: tomato;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.padding-left h2 {
+    background-color: tomato;
+    padding-left: 5%;
+}
+
+
+
+/* padding shorthand */
+
+.shorthand {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.shorthand h2{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 5% 3% 5% 3%;
+}
