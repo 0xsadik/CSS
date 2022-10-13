@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    background-color: lightcoral;
+    margin: 5%;
+    border: 5px dashed #fff;
+}
+
+.content {
+    padding: 5%;
+}
+
+.content h2 {
+    text-align: center;
+    color: #fff;
+}
