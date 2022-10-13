@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.box1 {
+    background-color: dodgerblue;
+    width: 90%;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
