@@ -1,0 +1,45 @@
+
+
+.space {
+    margin: 5%;
+}
+
+/* table 1 */
+
+.table1 table, th, td {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+}
+
+/* table 2 */
+
+.table2 table, th, td {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+}
+
+/* table 3 */
+
+.table3 table, th, td {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+}
+
+/* table 4 */
+
+.table4 table, th, td {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+}
+
+/* table 5 */
+
+.table5 table, th, td {
+    border: 1px solid;
+    width: 40%;
+    text-align: center;
+}
