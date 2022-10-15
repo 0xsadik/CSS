@@ -1,0 +1,45 @@
+
+.cntr {
+    text-align: center;
+}
+
+.ulink {
+    color: black;
+}
+
+.link {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.lbtn0 {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    border: 2px solid cadetblue;
+    padding:10px 20px 10px 20px;
+}
+
+.lbtn0:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.lbtn1 {
+    border:none;
+    padding: 10px 30px 10px 30px;
+    background-color: tomato;
+    opacity: .7;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lbtn1:hover {
+    opacity: .9;
+
+}
