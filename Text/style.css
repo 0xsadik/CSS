@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.txtcol h1 {
+    background-color: black;
+    color: #fff;
+}
+
+/* text alignment */
+.txtalign h1 {
+    text-align: left;
+}
+
+.txtalign h2{
+    text-align: center;
+}
+
+.txtalign h3 {
+    text-align: right;
+}
+
+/* text direction */
+
+.txtdir h2 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+/* text decoration */
+
+.overline {
+    text-decoration-line: overline;
+}
+
+.linethr {
+    text-decoration-line: line-through;
+}
+.underline {
+    text-decoration-line: underline;
+}
+.overunder {
+    text-decoration-line: overline underline;
+}
+
+/* text transformation */
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.capitali {
+    text-transform: capitalize;
+}
+
+/* text indentation */
+
+.indent {
+    text-indent: 50px;
+}
+
+.letterspace {
+    letter-spacing: 5px;
+}
+
+.rletterspace {
+    letter-spacing: -2px;
+}
+
+/* word spacing */
+
+.wordspace {
+    word-spacing: 10px;
+}
+
+/* text shadow */
+
+.txtshadow {
+    text-shadow: 2px 2px tomato;
+}
+
+.txtshadow2 {
+    text-shadow: 2px 2px 5px cadetblue;
+}
