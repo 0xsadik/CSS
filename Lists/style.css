@@ -1,0 +1,19 @@
+
+
+.ulswrap ul {
+    list-style-image: url('./flower.png');
+}
+
+/* style - 0 */
+
+.st0 ul {
+    list-style-type: decimal;
+    background-color: #F89999;
+    padding: 30px;
+}
+
+.st0 li {
+    background-color: #FDE5E5;
+    padding: 15px;
+    margin-left: 30px;
+}
