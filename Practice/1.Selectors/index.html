@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* element type selector */
+        h1 {
+            color: cadetblue;
+            text-align: center;
+            margin-top: 2%;
+            font-size: 50px;
+        }
+        /* id selector */
+        #hbox {
+            width: 80%;
+            height: 500px;
+            background-color: lightgray;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+        /* class selector */
+        .para {
+            padding: 20px;
+        }
+
+        .para p {
+            font-size: 20px;
+            line-height: 50px;
+        }
+        /* descendant selectors */
+        .descend {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h2 {
+            margin: 10px;
+        }
+        h2 span {
+            color: powderblue;
+        }
+
+        ul.menu {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul.menu li {
+            display: inline;
+        }
+
+        ul.menu li a {
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div id="hbox">
+        <div class="para">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugiat quae magni mollitia eius illum veniam minus excepturi eos, necessitatibus provident voluptas totam porro dolore! Commodi vitae sit est, quam dicta corporis rem aliquam non quibusdam corrupti minus beatae hic dolores iure. Voluptatem, non. Rerum aperiam repudiandae laborum perferendis, officiis asperiores enim, distinctio culpa dolorum eum voluptates. Voluptas laudantium suscipit modi qui corporis ducimus nihil, fugiat a dolor eum aliquid repellendus officia minus aut molestias consectetur est vitae incidunt facere commodi vero sint perspiciatis voluptatum. Ipsam facere corporis deserunt quam accusantium et eius, magnam cupiditate, minus unde est dolor perferendis quas, ducimus necessitatibus fugit itaque labore aliquam voluptatibus ratione! Sit blanditiis soluta consectetur aut nostrum placeat praesentium ratione sunt aperiam, rerum atque dolorum, obcaecati officiis dolore maxime rem maiores optio temporibus voluptatem? Accusamus dolorem nesciunt a deleniti, vel minus tempore tempora autem aspernatur unde similique eum illum, perspiciatis quasi eius quae dolor mollitia adipisci ipsam! Recusandae dolorum corporis veritatis in. Illo quaerat deleniti quae! Quod, accusantium enim ratione beatae est nobis voluptatem recusandae. Dolorem praesentium quod numquam iste, reiciendis, modi quisquam ratione magni tenetur in expedita nam similique voluptate quia voluptates perspiciatis, quas accusamus alias. Non consectetur aut repudiandae dignissimos?
+            </p>
+        </div>
+    </div>
+
+    <!-- descendant selectors -->
+
+    <div class="descend">
+        <h2>This is a <span>heading</span></h2>
+        <ul class="menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+
+    
+</body>
+</html>
