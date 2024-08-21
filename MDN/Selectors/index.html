@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1 {
+            color: blue;
+        }
+        .special {
+            color: tomato;
+        }
+
+
+
+
+        /* 
+        
+            type, class and id selectors
+
+            type:
+            h1 {
+            
+            }
+        
+
+            class : 
+            .box {
+            
+            }
+
+            id: 
+            #unique {
+            
+            }
+
+
+            Attribute: 
+            a[title] {
+            
+            }
+
+
+            attribute with a particular value: 
+            a[href="https://example.com"] {
+            
+            }
+
+            pseudo class: 
+            a:hover {
+            
+            }
+
+            pseudo element: 
+            p::first-line {
+            
+            }
+
+            combinators: 
+            article > p {
+            
+            }
+
+
+            where ' article ' is parent and  ` p ` is child 
+
+
+            h1 + p {
+                margin-top : 0;
+            }
+
+            this will remove the top margin of <p> elements that directrly follow and <h1> element 
+
+
+            universal selector : 
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        */
+
+
+    </style>
+</head>
+<body>
+    <!-- selector lists -->
+    <!-- <h1>Selector <span class="special">list</span></h1> -->
+    <h1>Example heading</h1>
+    <p class="special">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quas numquam quasi provident consequatur magni nisi distinctio. Beatae quae provident soluta expedita non explicabo sequi, cupiditate numquam aliquam rerum debitis obcaecati voluptas eos laboriosam modi temporibus eligendi animi! Atque nobis saepe porro. Ab recusandae et sint eligendi quam dolore qui cum ea labore similique sed temporibus expedita</p>
+
+</body>
+</html>

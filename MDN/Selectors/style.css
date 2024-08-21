@@ -1,0 +1,51 @@
+/* css attirbutes with particular value */
+
+a[attribute="value"] {
+    /* styles */
+}
+
+a[href="https://example.com"] {
+    color : tomato;
+    font-weight: bold;
+}
+
+button[data-actions="submit"] {
+    background-color: lightblue;
+    color: #fff;
+}
+
+
+
+/* ^= (starts with) */
+a[href^="https"] {
+    color: green;
+}
+
+/* $= (ends with) */
+a[href$=".pdf"] {
+    font-weight: bold;
+}
+
+/* *= (contains ) */
+a[href*="example"] {
+    color: yellow;
+}
+
+
+/* white space match selector  */
+
+/* ~= (contains a whole word) */
+p[class~="highlight"] {
+    background-color: yellow;
+}
+
+
+/* |= (equals or starts with a specified value, followed by a hypen */
+div[lang|="en"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* combining attribute selectors */
+input[type="text"][required] {
+    border-color: purple;
+}
